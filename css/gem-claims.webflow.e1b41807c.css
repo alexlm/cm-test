@@ -1,4 +1,4 @@
-/* Generated on: Tue Nov 30 2021 20:41:35 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Nov 30 2021 20:48:14 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -604,6 +604,33 @@ a {
   letter-spacing: 0.2px;
 }
 
+.c__left--claim-type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.c_left--claim-type-link {
+  color: #fff;
+}
+
+.c__left--claim-type-change {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.c-left__claim-type-name {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
 @media screen and (max-width: 991px) {
   .typography {
     padding-top: 7.5rem;
@@ -634,6 +661,11 @@ a {
 }
 
 #w-node-_63d9133b-951a-fc52-b70c-4575beddd8f4-bc4050fb {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_7563a95a-a0dd-3bf1-6639-d264154b471d-084d8e96 {
   -ms-grid-column-align: center;
   justify-self: center;
 }
