@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 01 2021 16:05:05 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 01 2021 16:07:03 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -190,7 +190,7 @@ label {
   justify-content: center;
 }
 
-.column__left-container {
+.c-left {
   position: relative;
   left: 0%;
   top: 0%;
@@ -370,12 +370,19 @@ label {
   text-transform: uppercase;
 }
 
-.column__right-container {
-  display: block;
-  max-width: 600px;
-  min-width: 600px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.c-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   grid-auto-columns: 1fr;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
