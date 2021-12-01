@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 01 2021 18:21:17 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 01 2021 18:30:31 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -885,12 +885,14 @@ label {
 
 .input:active {
   padding-left: 15px;
+  color: #555;
 }
 
 .input:focus {
   padding-left: 15px;
   border-width: 2px;
   border-color: #1282a6;
+  color: #555;
 }
 
 .input.long {
