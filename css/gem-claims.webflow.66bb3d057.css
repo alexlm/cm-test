@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 01 2021 15:58:39 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 01 2021 15:59:38 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1020,11 +1020,11 @@ label {
   border-bottom: 1px dashed #dededf;
 }
 
-.coverage__credit--card {
+.coverage__credit-card {
   margin-left: 88px;
 }
 
-.coverage__credit--card.is--hidden {
+.coverage__credit-card.is--hidden {
   display: none;
 }
 
