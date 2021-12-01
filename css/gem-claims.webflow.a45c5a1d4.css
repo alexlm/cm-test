@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 01 2021 16:07:03 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 01 2021 16:09:27 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -375,6 +375,8 @@ label {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -712,6 +714,8 @@ label {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 .heading__step {
