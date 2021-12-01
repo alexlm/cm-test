@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 01 2021 15:09:26 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 01 2021 15:26:28 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -105,7 +105,7 @@ h4 {
 }
 
 p {
-  margin-bottom: 0px;
+  margin-bottom: 1rem;
   font-family: 'Open Sans', sans-serif;
   color: #555;
   font-weight: 300;
@@ -432,7 +432,7 @@ label {
 
 .block__heading {
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 8px;
 }
 
 .grid {
@@ -738,6 +738,7 @@ label {
 }
 
 .radio-button-field {
+  position: static;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -750,7 +751,6 @@ label {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-bottom: 1px dashed #dededf;
   cursor: pointer;
 }
 
@@ -775,7 +775,7 @@ label {
 }
 
 .coverage__employer {
-  margin-left: 88px;
+  margin-left: 108px;
 }
 
 .flex__horizontal {
@@ -787,10 +787,6 @@ label {
 
 .margin-right16 {
   margin-right: 16px;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
 .center-form {
@@ -856,21 +852,27 @@ label {
 
 .input {
   position: relative;
-  height: 4em;
+  height: 56px;
+  max-width: 320px;
   margin-bottom: 0px;
-  padding-top: 18px;
-  border: 3px solid #cde;
+  padding: 18px 16px 6px;
+  border: 1px solid #9e9e9e;
   border-radius: 6px;
   background-color: transparent;
   font-family: 'Open Sans', sans-serif;
   color: #2c4d51;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+.input:active {
+  padding-left: 15px;
 }
 
 .input:focus {
-  border-width: 3px;
-  border-color: #4ba5ff;
+  padding-left: 15px;
+  border-width: 2px;
+  border-color: #1282a6;
 }
 
 .input.long {
@@ -995,7 +997,7 @@ label {
 }
 
 .field-label {
-  top: 1.3rem;
+  top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1005,8 +1007,12 @@ label {
   padding-left: 0px;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
-  font-weight: 400;
   cursor: text;
+}
+
+.split-line-dashed {
+  height: 1px;
+  border-bottom: 1px dashed #dededf;
 }
 
 @media screen and (max-width: 991px) {
