@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 01 2021 16:01:50 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 01 2021 16:04:20 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -441,11 +441,8 @@ label {
 }
 
 .two-column {
-  display: -ms-grid;
-  display: grid;
+  display: block;
   grid-auto-columns: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
   -ms-grid-columns: minmax(400px, 0.5fr) 1fr;
   grid-template-columns: minmax(400px, 0.5fr) 1fr;
   -ms-grid-rows: auto;
