@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 01 2021 15:46:59 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 01 2021 15:53:19 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1018,6 +1018,22 @@ label {
 .split-line-dashed {
   height: 1px;
   border-bottom: 1px dashed #dededf;
+}
+
+.coverage__credit-card {
+  margin-left: 88px;
+}
+
+.coverage__credit-card.is--hidden {
+  display: none;
+}
+
+.coverage__purchased {
+  margin-left: 88px;
+}
+
+.coverage__purchased.is--hidden {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
