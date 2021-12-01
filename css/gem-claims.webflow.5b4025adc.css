@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 01 2021 15:33:31 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 01 2021 15:37:52 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -777,6 +777,10 @@ label {
 
 .coverage__employer {
   margin-left: 88px;
+}
+
+.coverage__employer.is--hidden {
+  display: none;
 }
 
 .flex__horizontal {
