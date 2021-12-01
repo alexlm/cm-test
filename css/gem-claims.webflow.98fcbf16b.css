@@ -1,4 +1,4 @@
-/* Generated on: Wed Dec 01 2021 16:18:00 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Dec 01 2021 17:34:06 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1050,6 +1050,7 @@ label {
 }
 
 .c-right__container {
+  width: 600px;
   max-width: 600px;
 }
 
